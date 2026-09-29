@@ -1,0 +1,28 @@
+# Core
+python-dotenv>=1.0.1
+streamlit>=1.37.0
+pandas>=2.2.2
+numpy>=1.26.4
+
+# LangChain + loaders
+langchain>=0.2.10
+langchain-community>=0.2.10
+langchain-openai>=0.1.17
+langchain-google-genai>=1.0.7
+pypdf>=4.2.0
+
+# Retrieval
+rank-bm25>=0.2.2
+
+# Reranker (opsional, auto-fallback kalau tidak ada)
+sentence-transformers>=3.0.1
+torch>=2.2.0; platform_system!="Windows" or platform_machine!="arm64"
+# macOS Apple Silicon bisa pakai mps (opsional)
+
+# monoT5 (opsional)
+transformers>=4.43.0
+sentencepiece>=0.1.99
+huggingface-hub>=0.23.0
+
+# Misc
+tqdm>=4.66.4

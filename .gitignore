@@ -1,0 +1,31 @@
+# Rahasia - JANGAN pernah di-commit
+.env
+.env.*
+!.env.example
+
+# Virtualenv & cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Cache index RAG (besar, bisa dibangun ulang)
+rag_cache/
+
+# Artefak OS / installer
+.DS_Store
+*.dmg
+
+# Cache respons LLM: besar dan dibangkitkan ulang; simpan terpisah bila perlu
+# llm_cache/
+
+# Pratinjau keluaran IAA dengan penilaian simulasi. Angkanya bukan hasil
+# penilaian siapa pun dan tidak boleh sampai tercampur dengan hasil nyata.
+Result/anotasi/CONTOH_KELUARAN/
+result*/
+Result*/
+output*/
+__pycache__/
+.DS_Store
+.venv/
+venv/
+.env
